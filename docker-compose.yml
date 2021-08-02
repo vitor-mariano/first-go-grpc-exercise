@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    command: go run cmd/server/main.go
+    volumes:
+      - .:/go/src/github.com/vitor-mariano/first-go-grpc-exercise
